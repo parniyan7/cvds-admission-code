@@ -6,27 +6,24 @@
 
 ## Overview
 
-This repository contains two Python code samples submitted as part of the **Personal Programming Code Example** for the admission procedure.
+This repository contains two Python mini-projects submitted as part of the admission requirements.
 
-Both files demonstrate:
-- Readable, modular, and pythonic code
-- Algorithmic thinking relevant to Computer Vision & Data Science
+Both samples demonstrate clean, readable, modular, and pythonic code.
 
 ## Files
 
-- **`admission1.py`** → Image Processor Mini Project  
-  A modular image processing tool using NumPy. Demonstrates basic image operations such as normalization, flipping, thresholding, and histogram calculation.
+- **`admission1.py`** – Image Processor Mini Project  
+  Basic image processing operations using NumPy (normalization, flipping, histogram, etc.).
 
-- **`admission2.py`** → Data Analyzer Mini Project  
-  A clean data analysis pipeline. Shows statistics calculation, outlier removal, and data preprocessing using NumPy.
-
-## Requirements
-
-- Python 3.10+
-- NumPy (`conda install numpy` or `pip install numpy`)
+- **`admission2.py`** – Data Analyzer Mini Project  
+  A modular data analysis pipeline with statistics and preprocessing.
 
 ## How to Run
 
-1. Activate the environment:
-   ```bash
-   conda activate cvds-admission
+Make sure you have Python 3.10+ and NumPy installed.
+
+Run the files with:
+
+```bash
+python admission1.py
+python admission2.py
