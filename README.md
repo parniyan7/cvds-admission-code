@@ -1,33 +1,32 @@
-# cvds-admission-code
 # CV&DS Admission - Programming Code Samples
 
 **Author:** Parniyan Mousaie  
-**Programme:** Master Computer Vision & Data Science 2026-2027
+**Programme:** Master Computer Vision & Data Science 2026-2027  
+**NHL Stenden**
 
 ## Overview
 
-This repository contains **two Python code samples** submitted as part of the admission procedure for the Master Computer Vision & Data Science at NHL Stenden.
+This repository contains two Python code samples submitted as part of the **Personal Programming Code Example** for the admission procedure.
 
-Both samples demonstrate:
-- Clean, readable, and modular code
-- Proper use of type hints and docstrings
-- Algorithmic thinking
+Both files demonstrate:
+- Readable, modular, and pythonic code
+- Algorithmic thinking relevant to Computer Vision & Data Science
 
 ## Files
 
-- **`number_analyzer.py`**  
-  A clean module for calculating statistics and filtering data. Shows good function design and error handling.
+- **`admission1.py`** → Image Processor Mini Project  
+  A modular image processing tool using NumPy. Demonstrates basic image operations such as normalization, flipping, thresholding, and histogram calculation.
 
-- **`string_processor.py`**  
-  A simple but well-structured module for text processing, including word frequency counting and string analysis.
+- **`admission2.py`** → Data Analyzer Mini Project  
+  A clean data analysis pipeline. Shows statistics calculation, outlier removal, and data preprocessing using NumPy.
 
 ## Requirements
 
 - Python 3.10+
-- No external libraries required
+- NumPy (`conda install numpy` or `pip install numpy`)
 
 ## How to Run
 
-```bash
-python number_analyzer.py
-python string_processor.py
+1. Activate the environment:
+   ```bash
+   conda activate cvds-admission
